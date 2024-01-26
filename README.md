@@ -1,7 +1,7 @@
 ### Run Redis
 
 ~~~linux
-sudo docker run 
+sudo docker run --name some-redis -d redis
 ~~~
 
 ### Run Celery
