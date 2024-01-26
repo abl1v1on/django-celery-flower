@@ -7,12 +7,12 @@ sudo docker run --name some-redis -d redis
 ### Run Celery
 
 ~~~
-celery -A {your_project_name} worker -l info
+celery -A DjangoCelery worker -l info
 ~~~
 
 ### Run Flower
 
 ~~~
-flower -A {your_project_name} --port=5555
+flower -A DjangoCelery --port=5555
 ~~~
 
