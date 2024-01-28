@@ -4,7 +4,7 @@
 sudo docker run --name some-redis -d redis
 ~~~
 
-### Run Celery
+### Run Celery worker
 
 ~~~
 celery -A DjangoCelery worker -l info
